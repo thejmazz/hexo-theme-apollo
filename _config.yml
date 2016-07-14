@@ -1,9 +1,8 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    GitHub: https://github.com/thejmazz
+    Twitter: https://twitter.com/thejmazz
 
 favicon: /favicon.png
 logo: /favicon.png
@@ -11,14 +10,14 @@ logo: /favicon.png
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo: 
+duoshuo:
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: XX-XXXXXXXX-X
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2016
 
 # Font CDN
 #true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor

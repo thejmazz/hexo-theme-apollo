@@ -1,3 +1,5 @@
+@import "colours";
+
 .post {
     padding-top: 1em;
 }
@@ -5,12 +7,12 @@
 .post-block {
     .post-title {
         margin: 0.65em 0;
-        color: #2c3e50;
+        color: $link;
         font-size: 1.5em;
     }
 
     .post-info {
-        color: #7f8c8d;
+        color: $subtext;
         margin: 1.2em 0;
         span {
             margin-left: 0.5rem;
@@ -20,8 +22,8 @@
             padding: 3px 6px;
             border-radius: 5px;
             font-size: 12px;
-            color: white;
-            background-color: #E36B6B;
+            color: $postFrom;
+            background-color: $postFromBG;
         }
     }
 }
@@ -32,7 +34,7 @@
         margin: 1em 0;
         &:before {
             content: "#";
-            color: #42b983;
+            color: $primary;
             position: absolute;
             left: -0.7em;
             top: -4px;
@@ -54,13 +56,13 @@
         font-size: 18px;
     }
     a {
-        color: #42b983;
+        color: $primary;
         word-break: break-all;
     }
     blockquote {
         margin: 2em 0;
         padding-left: 20px;
-        border-left: 4px solid #42b983;
+        border-left: 4px solid $primary;
     }
     img {
         display: block;
@@ -75,10 +77,10 @@
         position: relative;
         margin: 2em 0;
         padding: 12px 24px 12px 30px;
-        border-left: 4px solid #f66;
+        border-left: 4px solid $tip;
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
-        background-color: #f8f8f8;
+        background-color: $tipBG;
         br {
             display: none;
         }
@@ -91,12 +93,12 @@
         width: 20px;
         height: 20px;
         border-radius: 100%;
-        color: #fff;
+        color: $tipBefore;
         font-size: 14px;
         line-height: 20px;
         font-weight: bold;
         text-align: center;
-        background-color: #f66;
+        background-color: $tip;
         font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     }
 }
@@ -117,7 +119,7 @@
 code,
 pre {
     font-size: 0.8em;
-    background-color: #f8f8f8;
+    background-color: $codeBG;
     font-family: 'Roboto Mono', Monaco, courier, monospace;
 }
 
@@ -126,7 +128,7 @@ pre {
     margin: 1em 0;
     border-radius: 2px;
     line-height: 1.1em;
-    background-color: #f8f8f8;
+    background-color: $highlightBG;
     overflow-x: auto;
     table, tr, td {
         width: 100%;
@@ -148,7 +150,7 @@ pre {
     position: absolute;
     top: 0;
     right: 0;
-    color: #ccc;
+    color: $codeBase;
     text-align: right;
     font-size: 0.75em;
     padding: 5px 10px 0;
@@ -174,18 +176,18 @@ $signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "j
 }
 
 pre {
-    color: #525252;
+    color: $pre;
     .function .keyword,
     .constant {
-       color: #0092db;
+       color: $codeConstant;
     }
     .keyword,
     .attribute {
-        color: #e96900;
+        color: $codeAttribute;
     }
     .number,
     .literal {
-        color: #ae81ff;
+        color: $codeLiteral;
     }
     .tag,
     .tag .title,
@@ -196,16 +198,16 @@ pre {
     .clojure .built_in,
     .nginx .title,
     .tex .special {
-        color: #2973b7;
+        color: $codeTexSpecial;
     }
     .symbol,
     .symbol .string,
     .value,
     .regexp {
-        color: #42b983;
+        color: $primary;
     }
     .title {
-        color: #83B917;
+        color: $codeTitle;
     }
     .tag .value,
     .string,
@@ -231,7 +233,7 @@ pre {
     .apache .cbracket,
     .tex .command,
     .prompt {
-        color: #42b983;
+        color: $primary;
     }
     .comment,
     .java .annotation,
@@ -242,10 +244,10 @@ pre {
     .shebang,
     .apache .sqbracket,
     .tex .formula {
-        color: #b3b3b3;
+        color: $codeTexFormula;
     }
     .deletion {
-        color: #BA4545;
+        color: $codeDeletion;
     }
     .coffeescript .javascript,
     .javascript .xml,

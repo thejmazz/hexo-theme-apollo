@@ -1,3 +1,5 @@
+@import "colours";
+
 .paginator {
     margin: 4em 0;
     text-align: center;
@@ -6,12 +8,12 @@
         margin: 0 4px;
         padding: 4px 12px;
         border-radius: 4px;
-        border-bottom: 4px solid #3aa373;
+        border-bottom: 4px solid $paginatorBorder;
         font-size: 14px;
-        color: #fff;
-        background-color: #4fc08d;
+        color: $background;
+        background-color: $paginatorBG;
         &:hover {
-            background-color: #22bd77;
+            background-color: $paginatorHoverBG;
         }
     }
 }
