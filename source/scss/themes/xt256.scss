@@ -1,0 +1,92 @@
+
+/*
+  xt256.css
+
+  Contact: initbar [at] protonmail [dot] ch
+         : github.com/initbar
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  color: #eaeaea;
+  background: #000;
+  padding: 0.5;
+}
+
+.subst {
+  color: #eaeaea;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.builtin-name,
+.type {
+  color: #eaeaea;
+}
+
+.params {
+  color: #da0000;
+}
+
+.literal,
+.number,
+.name {
+  color: #ff0000;
+  font-weight: bolder;
+}
+
+.comment {
+  color: #969896;
+}
+
+.selector-id,
+.quote {
+  color: #00ffff;
+}
+
+.template-variable,
+.variable,
+.title {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.selector-class,
+.keyword,
+.symbol {
+  color: #fff000;
+}
+
+.string,
+.bullet {
+  color: #00ff00;
+}
+
+.tag,
+.section {
+  color: #000fff;
+}
+
+.selector-tag {
+  color: #000fff;
+  font-weight: bold;
+}
+
+.attribute,
+.built_in,
+.regexp,
+.link {
+  color: #ff00ff;
+}
+
+.meta {
+  color: #fff;
+  font-weight: bolder;
+}

@@ -1,0 +1,83 @@
+/*
+
+Qt Creator dark color scheme
+
+*/
+
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000000;
+}
+
+.hljs,
+.subst,
+.tag,
+.title {
+  color: #aaaaaa;
+}
+
+.strong,
+.emphasis {
+  color: #a8a8a2;
+}
+
+.bullet,
+.quote,
+.number,
+.regexp,
+.literal {
+  color: #ff55ff;
+}
+
+.code
+.selector-class {
+  color: #aaaaff;
+}
+
+.emphasis,
+.stronge,
+.type {
+  font-style: italic;
+}
+
+.keyword,
+.selector-tag,
+.function,
+.section,
+.symbol,
+.name {
+  color: #ffff55;
+}
+
+.attribute {
+  color: #ff5555;
+}
+
+.variable,
+.params,
+.class .title {
+  color: #8888ff;
+}
+
+.string,
+.selector-id,
+.selector-attr,
+.selector-pseudo,
+.type,
+.built_in,
+.builtin-name,
+.template-tag,
+.template-variable,
+.addition,
+.link {
+  color: #ff55ff;
+}
+
+.comment,
+.meta,
+.deletion {
+  color: #55ffff;
+}

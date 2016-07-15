@@ -1,0 +1,108 @@
+/*
+
+Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fbf1c7;
+}
+
+.hljs,
+.subst {
+  color: #3c3836;
+}
+
+/* Gruvbox Red */
+.deletion,
+.formula,
+.keyword,
+.link,
+.selector-tag {
+  color: #9d0006;
+}
+
+/* Gruvbox Blue */
+.built_in,
+.emphasis,
+.name,
+.quote,
+.strong,
+.title,
+.variable {
+  color: #076678;
+}
+
+/* Gruvbox Yellow */
+.attr,
+.params,
+.template-tag,
+.type {
+  color: #b57614;
+}
+
+/* Gruvbox Purple */
+.builtin-name,
+.doctag,
+.literal,
+.number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.code,
+.meta,
+.regexp,
+.selector-id,
+.template-variable {
+  color: #af3a03;
+}
+
+/* Gruvbox Green */
+.addition,
+.meta-string,
+.section,
+.selector-attr,
+.selector-class,
+.string,
+.symbol {
+  color: #79740e;
+}
+
+/* Gruvbox Aqua */
+.attribute,
+.bullet,
+.class,
+.function,
+.function .keyword,
+.meta-keyword,
+.selector-pseudo,
+.tag {
+  color: #427b58;
+}
+
+/* Gruvbox Gray */
+.comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.link_label,
+.literal,
+.number {
+  color: #8f3f71;
+}
+
+.comment,
+.emphasis {
+  font-style: italic;
+}
+
+.section,
+.strong,
+.tag {
+  font-weight: bold;
+}
