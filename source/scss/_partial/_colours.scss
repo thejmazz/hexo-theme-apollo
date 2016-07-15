@@ -1,5 +1,9 @@
-$primary: #42b983;
-$primaryHover: #267B54;
+@import "lumxcolors";
+
+// $primary: #42b983;
+$primary: $purple-400;
+// $primaryHover: #267B54;
+$primaryHover: darken($primary, 20%);
 $text: #34495e;
 $background: #FFFFFF;
 $background2: #EEEEEE;
@@ -8,7 +12,8 @@ $subtext: #7f8c8d;
 $subtext2: #AAAAAA;
 $subtext2Hover: #888888;
 $link: #2c3e50;
-$secondary: #e96900;
+// $secondary: #e96900;
+$secondary: lighten($text, 10%);
 
 $selectionColor: #FFFFFF;
 $selectionBG: $primary;

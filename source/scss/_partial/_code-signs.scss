@@ -1,0 +1,24 @@
+%code-base {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $codeBase;
+    text-align: right;
+    font-size: 0.75em;
+    padding: 5px 10px 0;
+    line-height: 15px;
+    height: 15px;
+    font-weight: 600;
+}
+
+@mixin code-signs($keys) {
+    @each $key in $keys {
+        .highlight.#{$key} .code:after {
+            content: to-upper-case($key);
+            @extend %code-base;
+        }
+    }
+}
+
+$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp");
+@include code-signs($signs);
